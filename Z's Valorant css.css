@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wrapper {
+    width: 1263px;
+    position: relative;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: #EB4024;
+}
+
+.valorant {
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.vandal {
+    float: right;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+.main {
+    height: 500px;
+    width: 100%;
+    background-color: #F5995B;
+}
+
+.btn-login {
+    margin-top: 30px;
+    float: right;
+    display: grid;
+    opacity: 0.7;
+    
+}
+
+.login {
+    background-color: #F5995B;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn-login:hover {
+    opacity: 1;
+}
+
+.logo {
+    padding-top: 40px;
+}
+
+.jasa {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.contact {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.posisi-btn {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.instagram {
+    background-color: #E1306C;
+    margin-bottom: 10px;
+}
+
+.whatsapp {
+    background-color: #1be350;
+    margin-bottom: 50px;
+}
+
+.copyright {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: #EB4024;
+}
+
+.nama {
+    float: left;
+    padding-top: 34px;
+    padding-left: 20px;
+    color: white;
+}
+
+.mapel {
+    float: right;
+    padding-top: 34px;
+    padding-right: 20px;
+    color: white;
+}
+
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+}
